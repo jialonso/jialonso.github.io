@@ -157,7 +157,23 @@ ul.nav.navbar li a:hover,ul.nav.navbar li a.active,ul.nav.navbar li a:focus{
 	-ms-transform: scale(0.8);
 }
 
-
+@media(max-width:767px){
+.navbar-toggle {
+    float: none;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    font-size: 1.3em;
+    color: #fff;
+}
+.nav > li {
+    display: block;
+}
+ul.nav.navbar li a {
+    padding: 0.8em 1.5em;
+    font-size: 1.1em;
+}
+}
 
 /*--//top-nav--*/
 
