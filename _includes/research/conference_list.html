@@ -1,0 +1,21 @@
+<div id="conference-papers" class="col-md-12">
+<h4 class="title">Conference papers</h4>
+<ul style="list-style-type:none">
+  {% for paper in site.data.publications %}
+    {% if paper.type == 'inproceedings' %}
+    <li style="padding-bottom:5px;">
+      <strong>({{paper.year}}) {{paper.title}}</strong>
+      <br>
+      {{paper.authors | join: ', '}}. In proceedings of {{paper.booktitle}}. {{paper.pages}}.
+      <br>
+    </li>
+    &nbsp; &nbsp;
+    <a class="btn btn-success" href="{{paper.url}}" target="_blank">View Online</a>
+    {% if paper.supplement %} <a class="btn btn-warning" href="{{paper.supplement}}" target="_blank">Supplement Site</a> {% endif %}
+    <br><br>
+  {% endif %}
+  {% endfor %}
+</ul>
+</div>
+
+

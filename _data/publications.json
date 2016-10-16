@@ -1,0 +1,166 @@
+[
+  {
+    "title": "MEPD: medaka expression pattern database, genes and more.",
+    "url": "http://dx.doi.org/10.1093/nar/gkv1029",
+    "journal": "Nucleic Acids Research",
+    "year": "2016",
+    "number": "Database-Issue",
+    "volume": "44",
+    "key": "journals/nar/Alonso-BarbaRWM16",
+    "authors": [
+      "Juan Ignacio Alonso-Barba",
+      "Raza-Ur Rahman",
+      "Joachim Wittbrodt",
+      "Juan L. Mateo"
+    ],
+    "type": "article",
+    "pages": "819-821"
+  },
+  {
+    "title": "Random extreme learning machines to predict electric load in buildings.",
+    "url": "http://dx.doi.org/10.1007/s13748-015-0077-6",
+    "journal": "Progress in AI",
+    "year": "2016",
+    "number": "2",
+    "volume": "5",
+    "key": "journals/pai/VergaraASGD16",
+    "authors": [
+      "Gonzalo Vergara",
+      "Juan Ignacio Alonso-Barba",
+      "Emilio Soria-Olivas",
+      "José A. Gámez",
+      "Manuel Domínguez"
+    ],
+    "type": "article",
+    "pages": "129-135"
+  },
+  {
+    "title": "Automatic quantification of the subcellular localization of chimeric GFP protein supported by a two-level Naive Bayes classifier.",
+    "url": "http://dx.doi.org/10.1016/j.eswa.2014.09.052",
+    "journal": "Expert Syst. Appl.",
+    "year": "2015",
+    "number": "3",
+    "volume": "42",
+    "key": "journals/eswa/Saez-AtienzarMAPGJO15",
+    "authors": [
+      "Sara Sáez-Atienzar",
+      "Jesus Martínez-Gómez",
+      "Juan Ignacio Alonso-Barba",
+      "José Miguel Puerta",
+      "María F. Galindo",
+      "Joaquín Jordán",
+      "Luis de la Ossa"
+    ],
+    "type": "article",
+    "pages": "1531-1537"
+  },
+  {
+    "title": "Ant Colony and Surrogate Tree-Structured Models for Orderings-Based Bayesian Network Learning.",
+    "url": "http://doi.acm.org/10.1145/2739480.2754806",
+    "booktitle": "GECCO",
+    "year": "2015",
+    "key": "conf/gecco/Alonso-BarbaORM15",
+    "authors": [
+      "Juan Ignacio Alonso-Barba",
+      "Luis de la Ossa",
+      "Olivier Regnier-Coudert",
+      "John A. W. McCall",
+      "José A. Gámez",
+      "José Miguel Puerta"
+    ],
+    "type": "inproceedings",
+    "pages": "543-550"
+  },
+  {
+    "title": "Scaling up the Greedy Equivalence Search algorithm by constraining the search space of equivalence classes.",
+    "url": "http://dx.doi.org/10.1016/j.ijar.2012.09.004",
+    "journal": "Int. J. Approx. Reasoning",
+    "year": "2013",
+    "number": "4",
+    "volume": "54",
+    "key": "journals/ijar/Alonso-BarbadGP13",
+    "authors": [
+      "Juan Ignacio Alonso-Barba",
+      "Luis delaOssa",
+      "José A. Gámez",
+      "Jose Miguel Puerta"
+    ],
+    "type": "article",
+    "pages": "429-451"
+  },
+  {
+    "title": "Structural learning of Bayesian networks using local algorithms based on the space of orderings.",
+    "url": "http://dx.doi.org/10.1007/s00500-010-0623-x",
+    "journal": "Soft Comput.",
+    "year": "2011",
+    "number": "10",
+    "volume": "15",
+    "key": "journals/soco/Alonso-BarbadP11",
+    "authors": [
+      "Juan Ignacio Alonso-Barba",
+      "Luis delaOssa",
+      "Jose Miguel Puerta"
+    ],
+    "type": "article",
+    "pages": "1881-1895"},
+    
+  {
+    "title": "Scaling Up the Greedy Equivalence Search Algorithm by Constraining the Search Space of Equivalence Classes.",
+    "url": "http://dx.doi.org/10.1007/978-3-642-22152-1_17",
+    "booktitle": "ECSQARU 2011",
+    "year": "2011",
+    "key": "conf/ecsqaru/Alonso-BarbaOGP11",
+    "authors": [
+      "Juan Ignacio Alonso-Barba",
+      "Luis de la Ossa",
+      "José A. Gámez",
+      "Jose Miguel Puerta"
+    ],
+    "type": "inproceedings",
+    "pages": "194-205"
+  },
+  {
+    "title": "Efficient and sound evaluation when learning Bayesian networks in the space of orderings based on local methods.",
+    "url": "http://dx.doi.org/10.1109/ISDA.2011.6121723",
+    "booktitle": "ISDA 2011",
+    "year": "2011",
+    "key": "conf/isda/Alonso-BarbadP11",
+    "authors": [
+      "Juan Ignacio Alonso-Barba",
+      "Luis delaOssa",
+      "Jose Miguel Puerta"
+    ],
+    "type": "inproceedings",
+    "pages": "611-618"
+  },
+  {
+    "title": "Structural Learning of Bayesian Networks by Using Variable Neighbourhood Search Based on the Space of Orderings.",
+    "url": "http://dx.doi.org/10.1109/ISDA.2009.157",
+    "booktitle": "ISDA 2009",
+    "year": "2009",
+    "key": "conf/isda/Alonso-BarbadP09",
+    "authors": [
+      "Juan Ignacio Alonso-Barba",
+      "Luis delaOssa",
+      "Jose Miguel Puerta"
+    ],
+    "type": "inproceedings",
+    "pages": "1435-1440"
+  }, 
+  {
+    "title": "Gait Optimization in AIBO Robots Using an Estimation of Distribution Algorithm.",
+    "url": "http://dx.doi.org/10.1109/HIS.2008.41",
+    "booktitle": "HIS 2008",
+    "year": "2008",
+    "key": "conf/his/Alonso-BarbaGPG08",
+    "authors": [
+      "Juan Ignacio Alonso-Barba",
+      "José A. Gámez",
+      "Jose Miguel Puerta",
+      "Ismael García-Varea"
+    ],
+    "type": "inproceedings",
+    "pages": "150-155"
+  }
+]
+

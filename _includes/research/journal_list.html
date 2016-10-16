@@ -1,0 +1,19 @@
+<div id="journal-papers" class="col-md-12">
+<h4 class="title">Journals</h4>
+<ul style="list-style-type:none">
+  {% for paper in site.data.publications %}
+    {% if paper.type == 'article' %} 
+    <li style="padding-bottom:5px;">
+      <strong>({{paper.year}}) {{paper.title}}</strong>
+      <br>
+      {{paper.authors | join: ', '}}. {{paper.journal}}. {{paper.volume}}{% if paper.number %}({{paper.number}}){% endif %}. {{paper.pages}}.
+      <br>
+    </li>
+    &nbsp; &nbsp;
+    <a class="btn btn-success" href="{{paper.url}}" target="_blank">View Online</a>
+    {% if paper.supplement %} <a class="btn btn-warning" href="{{paper.supplement}}" target="_blank">Supplement Site</a> {% endif %}
+    <br><br>
+  {% endif %}
+  {% endfor %}
+</ul>
+</div>

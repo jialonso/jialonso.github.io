@@ -1,0 +1,23 @@
+	<!--banner-->
+	<div class="jumbotron">
+		<div class="dotted">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3">
+						<img class="img-responsive center-block" src="images/img1.jpg" alt=""/>
+					</div>
+					<div class="col-md-9">
+						<h2>Hello!</h2>
+						<h1>I'm Juan Ignacio Alonso Barba</h1>
+						<h3>Data Scientist</h3>
+						<ul class="social-btn-lst">
+							{% for link in site.data.social_links %}
+						       	<li><a href="{{ link.url }}" target="_blank"><button type="button" class="btn social-btn"><i class="fa fa-{{ link.fa-icon }}" aria-hidden="true"></i></button></a></li>
+							{% endfor %}
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--//banner-->

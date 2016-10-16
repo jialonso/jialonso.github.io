@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+      {% include head.html %}
+      <title>Juan Ignacio Alonso Barba - {{page.title}}</title>
+    </head>
+
+    <body>
+        {% include header.html %}
+	{% include navbar.html %}
+
+        <main id="main-container" class="container">
+        {{ content }}
+        </main>
+
+        <footer id="footer-container">
+        {% include footer.html %}
+        </footer>
+	{% include scripts.html %}
+    </body>
+</html>

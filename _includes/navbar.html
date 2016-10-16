@@ -1,0 +1,27 @@
+	<!--top-nav-->
+	<div class="top-nav wow">
+		<div class="container">
+			<div class="navbar-header logo">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					Menu
+				</button>
+			</div>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<div class="menu">
+					<ul class="nav navbar">
+						{% assign links = site.html_pages | sort: 'priority' %}
+        					{% for p in links %}
+          					{% if p.priority %}
+						<li><a href="{{ p.path }}" class="scroll {% if p.path == page.path %}active{% endif %}">
+							{% if p.fa-icon %}<i class="fa fa-{{ p.fa-icon }}"></i> {% endif %}{{ p.title }}
+						</a></li>
+						{% endif %}
+					        {% endfor %}
+					</ul>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+	</div>	
+	<!--//top-nav-->
