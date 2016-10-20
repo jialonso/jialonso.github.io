@@ -1,9 +1,4 @@
 name: Juan Ignacio Alonso Barba
 description: Juan Ignacio Alonso Barba's academic/professional web page
 url: http://jialonso.com
-sections:
- - title: About me
-   file: index.html
- - title: Research
-   file: research.html
-
+include: ["_pages"]

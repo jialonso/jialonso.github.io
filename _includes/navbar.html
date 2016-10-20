@@ -13,7 +13,7 @@
 						{% assign links = site.html_pages | sort: 'priority' %}
         					{% for p in links %}
           					{% if p.priority %}
-						<li><a href="{{ p.path }}" class="scroll {% if p.path == page.path %}active{% endif %}">
+						<li><a href="{{ p.permalink }}" class="scroll {% if p.path == page.path %}active{% endif %}">
 							{% if p.fa-icon %}<i class="fa fa-{{ p.fa-icon }}"></i> {% endif %}{{ p.title }}
 						</a></li>
 						{% endif %}
