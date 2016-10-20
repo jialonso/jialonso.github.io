@@ -2,21 +2,21 @@
 
 <html>
     <head>
-      {% include head.html %}
+      {% include layout_items/head.html %}
       <title>Juan Ignacio Alonso Barba - {{page.title}}</title>
     </head>
 
     <body>
-        {% include header.html %}
-	{% include navbar.html %}
+        {% include layout_items/header.html %}
+	{% include layout_items/navbar.html %}
 
         <main id="main-container" class="container">
         {{ content }}
         </main>
 
         <footer id="footer-container">
-        {% include footer.html %}
+        {% include layout_items/footer.html %}
         </footer>
-	{% include scripts.html %}
+	{% include layout_items/scripts.html %}
     </body>
 </html>
