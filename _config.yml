@@ -1,4 +1,12 @@
-name: Juan Ignacio Alonso Barba
-description: Juan Ignacio Alonso Barba's academic/professional web page
-url: http://jialonso.com
 include: ["_pages"]
+
+# Header data
+name: Juan Ignacio Alonso Barba
+job_title: Data Scientist
+social_links:
+  - url: mailto:jialonso@jialonso.com
+    fa-icon: envelope
+  - url: http://linkedin.com/in/jialonsobarba
+    fa-icon: linkedin
+  - url: http://github.com/jialonso
+    fa-icon: github
